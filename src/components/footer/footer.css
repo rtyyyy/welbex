@@ -1,0 +1,134 @@
+.footer__wrapper {
+    margin-left: 150px;
+}
+
+.footer__content {
+    display: flex;
+}
+
+.footer__content h5 {
+    color: var(--dark-gray, #656566);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.footer__about li {
+    width: 200px;
+    height: 19px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    color: var(--light-text, #e4e5ea);
+}
+
+.footer__menu {
+    margin-right: 165px;
+}
+
+.footer__menu--list {
+    display: flex;
+}
+
+.footer__menu--list ul {
+    margin-top: 0;
+}
+
+.footer__menu--list li {
+    margin-right: 52px;
+    margin-bottom: 10px;
+}
+
+.footer__contact {
+    text-align: right;
+}
+
+.footer__contact li {
+    margin-bottom: 20px;
+}
+
+.footer__contact img {
+    margin-right: 10px;
+}
+
+.footer__contact img:nth-child(3) {
+    margin-right: 0;
+}
+
+.footer__copyright {
+    text-align: right;
+    width: 1140px;
+    margin-left: 70px;
+}
+
+.footer__copyright p {
+    color: #e4e5ea;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width: 320px) {
+    .footer__wrapper {
+        margin-left: 0;
+        background: black;
+    }
+
+    .footer__content {
+        margin-left: 14px;
+        display: block;
+    }
+
+    .footer__content h5 {
+        padding-top: 25px;
+        color: var(--dark-gray, #656566);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+    }
+
+    .footer__about li {
+        width: 180px;
+        height: 17px;
+        font-size: 14px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        color: var(--light-text, #e4e5ea);
+    }
+
+    .footer__menu {
+        margin-right: 0;
+    }
+
+    .footer__menu--list li {
+        font-size: 14px;
+    }
+
+    .footer__contact {
+        text-align: left;
+    }
+
+    .footer__contact h5 {
+        padding-top: 0;
+    }
+
+    .footer__contact li {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .footer__copyright {
+        text-align: left;
+        width: 310px;
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+
+    .footer__copyright p {
+        text-align: left;
+    }
+}

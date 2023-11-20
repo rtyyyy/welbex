@@ -1,0 +1,164 @@
+.content__wrapper {
+    display: flex;
+    margin: 90px 150px 70px 150px;
+}
+.content__title h1 {
+    margin: 0;
+    width: 362px;
+    height: 116px;
+    font-size: 48px;
+    font-weight: 400;
+}
+.content__title h2 {
+    width: 247px;
+    height: 58px;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    background: linear-gradient(to right, #fcb045, #ff3f78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content__title h4 {
+    width: 275px;
+    height: 44px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+}
+.content__info {
+    margin-left: 28.7vw;
+}
+.content__info h5 {
+    width: 291px;
+    height: 44px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+}
+.content__info h5 strong {
+    background: var(--gradient, linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+.content__info--gifts {
+    margin-bottom: 60px;
+}
+.content__info--gifts ul {
+    display: grid;
+    padding: 0;
+    grid-template-columns: 160px 10px;
+    grid-template-rows: 100px 100px;
+}
+.content__info--gifts ul li h4 {
+    width: 135px;
+    height: 22px;
+
+    margin-bottom: 6px;
+    color: var(--light-text, #e4e5ea);
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+.content__info--gifts ul li p {
+    width: 136px;
+    margin: 0;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+.content__info button {
+    width: 262px;
+    height: 61px;
+    flex-shrink: 0;
+    background: #4077f3;
+    border: none;
+    margin-left: 31px;
+}
+.content__info button p {
+    color: var(--light-text, #e4e5ea);
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    cursor: pointer;
+    font-weight: 500;
+}
+@media (max-width: 320px) {
+    .content__wrapper {
+        display: block;
+        margin: 0;
+    }
+    .content__title h1 {
+        margin: 40px 34px 0 14px;
+        width: 272px;
+        height: 88px;
+        font-size: 36px;
+    }
+    .content__title h2 {
+        width: 186px;
+        height: 44px;
+        margin-left: 14px;
+        font-size: 36px;
+        font-weight: 900;
+    }
+    .content__title h4 {
+        width: 271px;
+        height: 44px;
+        margin-left: 14px;
+    }
+    .content__info h5 {
+        width: 270px;
+        font-size: 16px;
+        height: 44px;
+        text-align: left;
+        margin-left: 14px;
+        margin-top: 45px;
+    }
+    .content__info h5 strong {
+        font-size: 16px;
+    }
+    .content__info {
+        margin-left: 0;
+    }
+    .content__info--gifts {
+        margin-bottom: 90px;
+    }
+    .content__info--gifts ul {
+        margin-left: 14px;
+        padding: 0;
+        grid-template-columns: 150px 100px;
+        grid-template-rows: 40px 10px;
+        
+    }
+    .content__info--gifts ul li h4 {
+        width: 125px;
+        height: 16px;
+
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .content__info--gifts ul li h4::before {
+        content: "—";
+        width: 10px;
+        height: 1px;
+        background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-right: 5px;
+    }
+    .content__info--gifts ul li p {
+        display: none;
+    }
+    .content__info button {
+        display: none;
+    }
+}
